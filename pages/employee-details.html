@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../css/style.css"/>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanika Pojazdowa</title>
+</head>
+<body>
+    <header>
+        <h1>Mechanika Pojazdowa</h1>
+        <img src="../images/logo.jpg" alt="Mechanika Pojazdowa Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="eployees-list.html">Mechanicy</a></li>
+            <li><a href="service-list.html">Usługi</a></li>
+            <li><a href="cars-list.html">Samochody</a></li>
+        </ul>
+    </nav>
+    <h2>Szczegóły pracownika</h2>
+<body>
+    <form class="form">
+        <div class="form-group">
+            <label for="firstName">Imie</label>
+            <input type="text" name="firstName" value="Jan" id="firstName" disabled/>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Nazwisko</label>
+            <input type="text" name="lastName" value="Kowalski" id="lastName" disabled/>
+        </div>
+        <div class="form-group">
+            <label for="telephone">Numer Telefonu</label>
+            <input type="number" name="telephone" value="123-456-789" id="telephone" disabled/>
+        </div>
+        <div class="form-group">
+            <label for="e-mail">E-Mail</label>
+            <input type="email" name="e-mail" value="janko@mp.pl" id="e-mail" disabled/>
+        </div>
+        <p>
+            <a href="employee-form.html" class="list-actions-button-edit">Edytuj</a>    
+        </p>
+        <h2>Lista Usług</h2>
+        <table class="table-list">
+            <thead>
+                <tr>
+                    <th>Typ Uslugi</th>
+                    <th>Koszt</th>
+                    <th>DataOD</th>
+                    <th>DataDO</th>
+                    <th>Akcje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Przeglad</td>
+                    <td>300</td>
+                    <td>11-06-2002</td>
+                    <td>12-06-2002</td>
+                    <td>
+                        <ul class="table-list-actions">
+                            <li>
+                                <a href="employee-details.html" class="list-actions-button-details">Szczegóły</a>
+                            </li>
+                            <li>
+                                <a href="employee-form.html" class="list-actions-button-edit">Edytuj</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-delete">Usuń</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Wymiana oleju</td>
+                    <td>160</td>
+                    <td>12-12-2012</td>
+                    <td>12-12-2020</td>
+                    <td>
+                        <ul class="table-list-actions">
+                            <li>
+                                <a href="employee-details.html" class="list-actions-button-details">Szczegóły</a>
+                            </li>
+                            <li>
+                                <a href="employee-form.html" class="list-actions-button-edit">Edytuj</a>
+                            </li>
+                            <li>
+                                <a href="" class="list-actions-button-delete">Usuń</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form-buttons">
+            <p>  
+                <a href="eployees-list.html" class="list-actions-button-details">Powrót</a>    
+            </p>
+        </div>
+    </form>
+    <footer>
+        Mariusz Grzechnik s14456
+    </footer>
+</body>
+</html>
